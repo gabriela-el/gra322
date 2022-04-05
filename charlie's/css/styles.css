@@ -1,0 +1,43 @@
+html {
+    --cream: #FCF7F2;
+    --orange: #F27100;
+    --black: #352C2D;
+    --tan: #E8E2DA;
+
+}
+
+body {
+    background-color: var(--cream);
+    font-family: 'Futura PT', sans-serif;
+
+}
+
+
+h1 {
+    font-weight: 500;
+    font-size: 80px;
+}
+
+.header {
+    align-items: center;
+    background-image: url(../img/coffee\ beans.png);
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    height: 90vh;
+    justify-content: center;
+}
+
+.established {
+    font-family: futura-pt, sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 48px;
+}
+
+.description {
+    font-family: futura-pt, sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 48px;
+}
