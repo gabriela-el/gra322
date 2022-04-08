@@ -6,19 +6,7 @@ html {
 
 }
 
-body {
-    background-color: var(--cream);
-    font-family: 'Futura PT', sans-serif;
-
-}
-
-
-h1 {
-    font-weight: 500;
-    font-size: 80px;
-}
-
-.header {
+header {
     align-items: center;
     background-image: url(../img/coffee\ beans.png);
     background-size: cover;
@@ -26,18 +14,76 @@ h1 {
     flex-direction: column;
     height: 90vh;
     justify-content: center;
+
 }
 
-.established {
-    font-family: futura-pt, sans-serif;
-    font-weight: 500;
-    font-style: normal;
-    font-size: 48px;
+body {
+    background-color: var(--cream);
+    font-family: 'Futura PT Medium', sans-serif;
+    color:#352C2D; 
+    display: grid;
+    padding: 5rem;
 }
 
-.description {
-    font-family: futura-pt, sans-serif;
+
+h1 {
     font-weight: 500;
-    font-style: normal;
-    font-size: 48px;
+    font-size: 60pt;
 }
+
+h2 {
+    font-weight: 500;
+    font-size: 36pt;
+}
+
+h3 {
+    color:#F27100;
+    font-weight: 500;
+    font-size: 32pt;
+    text-align: center;
+}
+
+th {
+    font-weight: 700;
+    font-size: 20pt;
+    text-align: left;
+}
+
+td {
+    font-weight: 500;
+    font-size: 20pt;
+}
+
+p {
+    font-weight: 500;
+    font-size: 20pt;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: [full-start] minmax(1rem,1fr) [main-start] minmax(0,1280px) [main-end] minmax(1rem, 1fr) [full-end];
+}
+
+.grid *{
+    grid-column: main;
+}
+
+.overview {
+    padding: 4rem;
+}
+
+.my-map {
+    width: 403px;
+    height: 403px;
+    position: f
+}
+
+@media screen and (min-width: 800px) {
+    .two-column{
+        align-items: start;
+        display: grid;
+        grid-gap: 3rem;
+        grid-template-columns: 1fr 1fr;
+    }
+}
+
