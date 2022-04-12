@@ -22,7 +22,6 @@ body {
     letter-spacing: .5pt;
     color:#352C2D; 
     display: grid;
-    margin: 5rem;
 }
 
 
@@ -83,6 +82,9 @@ footer {
     grid-column: main;
 }
 
+.overview-grid {
+    margin: 5rem;
+}
 .overview {
     padding: 4rem;
 }
