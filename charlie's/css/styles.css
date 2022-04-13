@@ -12,7 +12,7 @@ header {
     background-size: cover;
     display: flex;
     flex-direction: column;
-    height: 90vh;
+    height: 100vh;
     justify-content: center;
 }
 
@@ -27,14 +27,14 @@ body {
 
 h1 {
     font-weight: 500;
-    font-size: 60pt;
+    font-size: 48pt;
     letter-spacing: 30;
     text-align:center;
 }
 
 h2 {
     font-weight: 500;
-    font-size: 36pt;
+    font-size: 28pt;
     text-align:center;
     text-align:center;
 }
@@ -42,15 +42,15 @@ h2 {
 h3 {
     color:#F27100;
     font-weight: 500;
-    font-size: 32pt;
+    font-size: 28pt;
     text-align: center;
-    padding-top: 8rem;
+    padding-top: 5rem;
     padding-bottom: 3rem;
 }
 
 th {
     font-weight: 700;
-    font-size: 20pt;
+    font-size: 18pt;
     text-align: left;
     padding-top: 2rem;
     padding-bottom: 2rem;
@@ -58,13 +58,16 @@ th {
 
 td {
     font-weight: 500;
-    font-size: 20pt;
+    font-size: 16pt;
+    padding-bottom: 1rem;
 }
 
 p {
     font-weight: 500;
-    font-size: 20pt;
+    font-size: 16pt;
     padding-bottom: 5rem;
+    margin-left: 6rem;
+    margin-right: 6rem;
 }
 
 footer {
@@ -83,8 +86,11 @@ footer {
 }
 
 .overview-grid {
-    margin: 5rem;
+    margin-left: 7rem;
+    margin-right: 7rem;
+    margin-bottom: 7rem;
 }
+
 .overview {
     padding: 4rem;
 }
@@ -92,7 +98,6 @@ footer {
 .my-map {
     width: 403px;
     height: 403px;
-    position: f
 }
 
 @media screen and (min-width: 800px) {
