@@ -9,7 +9,11 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
   <!-- Load Styles -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Lora&family=Montserrat:wght@300&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="css/reset.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/tiny-slider/2.9.4/tiny-slider.css">
   <link rel="stylesheet" href="css/styles.css">
 
 </head>
@@ -23,48 +27,59 @@
   <h2>Arizona State University<br>
   The Design School<br>
   Visual Communication Design</h2>
-  <h3>Fall '21 / Spring '22<br>Digital Projects</h3>
+  <h3>Fall '21 & Spring '22<br>Digital Projects</h3>
 
 </header>
 
-<section>
+<section class="overview-grid">
 
   <h2>Fall 2021<br>
-  GRA 321<br>Technology
-  for Design I</h2>
-  <hr>
+    GRA 321<br>Technology
+    for Design I
+    <hr>
+  </h2>
 
-  <div>
-    <t>Artchivo</t>
-    <a href="artchivo.html">
-     <img src="img/placeholder-01.jpg" alt="responsive-website"/>
-    </a>
+  <div class="two-column">
+
+    <div>
+      <a href="artchivo.html">
+      <img src="img/artchivointro.png" alt="responsive-website"/>
+      </a>
+    </div>
+
+    <div>
+      <a href="seven-karts.html">
+      <img src="img/sevenkintro.png" alt="responsive-website"/>
+      </a>
+    </div>
+
   </div>
 
-  <div>
-    <t>Seven Karts</t>
-    <a href="seven-karts.html">
-     <img src="img/placeholder-01.jpg" alt="responsive-website"/>
-    </a>
-  </div>
+</section>
+
+
+<section class="overview-grid">
 
   <h2>Spring 2022<br>
-  GRA 322<br>Technology
-  for Design II </h2>
-  <hr>
+    GRA 322<br>Technology
+    for Design II 
+    <hr>
+  </h2>
 
-  <div>
-    <t>Charlie's Cafe</t>
-    <a href="charlies-cafe.html">
-     <img src="img/placeholder-01.jpg" alt="responsive-website"/>
-    </a>
-  </div>
+  <div class="two-column">
 
-  <div>
-    <t>Emerge</t>
-    <a href="emerge.html">
-     <img src="img/placeholder-01.jpg" alt="responsive-website"/>
-    </a>
+    <div>
+      <a href="charlies-cafe.html">
+      <img src="img/charliesintro-01.png" alt="charlies-cafe"/>
+      </a>
+    </div>
+
+    <div>
+      <a href="emerge.html">
+      <img src="img/emergeintro.png" alt="emerge"/>
+      </a>
+    </div>
+
   </div>
 
 </section>
@@ -74,6 +89,7 @@
 </footer>
 
   <!-- Load Scripts -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/tiny-slider/2.9.2/min/tiny-slider.js"></script>
   <script src="js/scripts.js"></script>
 
 </body>

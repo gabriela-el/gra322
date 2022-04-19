@@ -1,0 +1,112 @@
+html {
+    --gray: #525252;
+    --off-white: #FDFAF7;
+}
+
+body {
+    font-family: 'Lora', serif;
+    font-weight: 200;
+    color:#525252;
+    font-size: 12pt;
+    letter-spacing: 1pt;
+    margin: 5rem;
+}
+
+.button {
+    padding-bottom: 3rem;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 300;
+    color:#525252;
+    font-size: 14pt;
+    letter-spacing: .5pt;
+}
+
+hr {
+    background-color: #525252;
+    size: 2pt;
+}
+
+h1 {
+    font-family: 'Lora', serif;
+    font-weight: 300;
+    color:#525252;
+    font-size: 20pt;
+    letter-spacing: .5pt;
+}
+
+h2 {
+    font-family: 'Lora', serif;
+    font-weight: 300;
+    color:#525252;
+    font-size: 20pt;
+    letter-spacing: .5pt;
+    padding-top: 3rem;
+}
+
+h3 {
+    font-family: 'Lora', serif;
+    font-weight: 300;
+    color:#525252;
+    font-size: 20pt;
+    letter-spacing: .5pt;
+    padding-top: 3rem;
+    padding-bottom: 22rem;
+}
+
+h4 {
+    font-family: 'Lora', serif;
+    font-weight: 300;
+    color:#525252;
+    font-size: 20pt;
+    padding-top: 3rem;
+    padding-bottom: 10rem;
+}
+
+t {
+    font-family: 'Lora', serif;
+    font-weight: 300;
+    color:#525252;
+    font-size: 20pt;
+    letter-spacing: .5pt;
+    padding-top: 20rem;
+    padding-bottom: 2rem;
+}
+
+
+p {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 300;
+    color:#525252;
+    font-size: 16pt;
+    letter-spacing: .5pt;
+    padding-bottom: 1.5rem;
+    padding-top: 1rem;
+}
+
+footer {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 300;
+    color:#525252;
+    font-size: 14pt;
+    letter-spacing: .5pt;
+    padding-top: 5rem;
+    padding-bottom: 3rem;
+}
+
+.overview-grid {
+    font-family: 'Lora', serif;
+    font-weight: 300;
+    color:#525252;
+    font-size: 20pt;
+    letter-spacing: .5pt;
+}
+
+@media screen and (min-width: 800px) {
+    .two-column{
+        align-items: start;
+        display: grid;
+        grid-gap: 3rem;
+        grid-template-columns: 1fr 1fr;
+        padding-top: 4rem;
+    }
+}
