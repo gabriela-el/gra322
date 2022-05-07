@@ -1,24 +1,37 @@
+
 html {
     --gray: #525252;
     --off-white: #FDFAF7;
 }
 
 body {
-    font-family: 'Lora', serif;
-    font-weight: 200;
+    font-family: futura-pt, sans-serif;
+    font-weight: 300;
+    font-style: normal;
     color:#525252;
     font-size: 12pt;
-    letter-spacing: 1pt;
-    margin: 5rem;
+    letter-spacing: .5pt;
+    margin: 2rem;
 }
 
 .button {
-    padding-bottom: 3rem;
-    font-family: 'Montserrat', sans-serif;
-    font-weight: 300;
-    color:#525252;
-    font-size: 14pt;
-    letter-spacing: .5pt;
+    font-size: 15pt;
+    background-color: white;
+    color: black;
+    border: none;
+    border-radius: 13px;
+    transition-duration: 0.4s;
+    text-decoration: none;
+}
+  
+.button:hover {
+    background-color: #555555;
+    color: white;
+}
+
+.description {
+    padding-top: 3rem;
+    padding-bottom: 20rem;
 }
 
 hr {
@@ -26,79 +39,124 @@ hr {
     size: 2pt;
 }
 
+header {
+    padding: 1 rem;
+    margin: 0 auto;
+    padding-top: 1 rem;
+    max-width: 1280px;
+}
+
 h1 {
-    font-family: 'Lora', serif;
-    font-weight: 300;
+    font-family: futura-pt, sans-serif;
+    font-weight: 500;
+    font-style: normal;
     color:#525252;
-    font-size: 20pt;
+    font-size: 15pt;
     letter-spacing: .5pt;
+    padding-top: 2rem;
 }
 
 h2 {
-    font-family: 'Lora', serif;
-    font-weight: 300;
+    font-family: futura-pt, sans-serif;
+    font-weight: 500;
+    font-style: normal;
     color:#525252;
-    font-size: 20pt;
+    font-size: 15pt;
     letter-spacing: .5pt;
     padding-top: 3rem;
+}
+
+.fall {
+    padding-top: 6rem;
 }
 
 h3 {
-    font-family: 'Lora', serif;
-    font-weight: 300;
+    font-family: futura-pt, sans-serif;
+    font-weight: 500;
+    font-style: normal;
     color:#525252;
-    font-size: 20pt;
+    font-size: 15pt;
     letter-spacing: .5pt;
     padding-top: 3rem;
-    padding-bottom: 22rem;
+    padding-bottom: 26rem;
 }
 
 h4 {
-    font-family: 'Lora', serif;
-    font-weight: 300;
+    font-family: futura-pt, sans-serif;
+    font-weight: 500;
+    font-style: normal;
     color:#525252;
-    font-size: 20pt;
+    font-size: 15pt;
     padding-top: 3rem;
     padding-bottom: 10rem;
 }
 
-t {
-    font-family: 'Lora', serif;
-    font-weight: 300;
+
+
+img {
+    max-width: 100%;
+}
+
+h5 {
+    font-family: futura-pt, sans-serif;
+    font-weight: 500;
+    font-style: normal;
     color:#525252;
-    font-size: 20pt;
+    font-size: 15pt;
     letter-spacing: .5pt;
-    padding-top: 20rem;
+    padding-top: 5rem;
     padding-bottom: 2rem;
 }
 
 
 p {
-    font-family: 'Montserrat', sans-serif;
+    font-family: futura-pt, sans-serif;
     font-weight: 300;
+    font-style: normal;
     color:#525252;
-    font-size: 16pt;
+    font-size: 15pt;
     letter-spacing: .5pt;
     padding-bottom: 1.5rem;
     padding-top: 1rem;
 }
 
-footer {
-    font-family: 'Montserrat', sans-serif;
+.small {
+    font-family: futura-pt, sans-serif;
     font-weight: 300;
+    font-style: normal;
+    font-size: 12pt;
+}
+
+.projectbody {
+    padding: 1 rem;
+    margin: 0 auto;
+    max-width: 1280px;
+}
+
+footer {
+    font-family: futura-pt, sans-serif;
+    font-weight: 500;
+    font-style: normal;
     color:#525252;
-    font-size: 14pt;
+    font-size: 12pt;
     letter-spacing: .5pt;
     padding-top: 5rem;
     padding-bottom: 3rem;
+    padding: 1 rem;
+    margin: 0 auto;
+    max-width: 1280px;
 }
 
 .overview-grid {
-    font-family: 'Lora', serif;
-    font-weight: 300;
+    font-family: futura-pt, sans-serif;
+    font-weight: 500;
+    font-style: normal;
     color:#525252;
-    font-size: 20pt;
+    font-size: 15pt;
     letter-spacing: .5pt;
+    padding: 1 rem;
+    margin: 0 auto;
+    max-width: 1280px;
 }
 
 @media screen and (min-width: 800px) {
@@ -107,6 +165,40 @@ footer {
         display: grid;
         grid-gap: 4rem;
         grid-template-columns: 1fr 1fr;
-        padding-top: 4rem;
+        padding-top: 3rem;
     }
+
 }
+
+@media screen and (min-width: 800px) {
+    .ch-process-grid {
+      padding-top: 2rem;
+      display: grid;
+      gap: 3rem;
+      grid-template-columns: 1fr 1fr 1fr;
+    }
+
+    .em-process-grid1 {
+        padding-top: 2rem;
+        display: grid;
+        gap: 3rem;
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+
+    .em-process-grid {
+        padding-top: 2rem;
+        display: grid;
+        gap: 3rem;
+        grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+      }
+
+    .em-moodboard-grid {
+        padding-top: 2rem;
+        display: grid;
+        gap: 3rem;
+        grid-template-columns: 1fr;
+    }
+
+}
+
+
