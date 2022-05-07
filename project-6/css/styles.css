@@ -190,7 +190,7 @@ footer {
         display: grid;
         gap: 3rem;
         grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
-      }
+    }
 
     .em-moodboard-grid {
         padding-top: 2rem;
@@ -198,6 +198,36 @@ footer {
         gap: 3rem;
         grid-template-columns: 1fr;
     }
+
+    .storyboard-grid {
+        padding-top: 2rem;
+        display: grid;
+        gap: 5rem;
+        grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    }
+
+    .art-process-grid1 {
+        padding-top: 2rem;
+        display: grid;
+        gap: 3rem;
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+
+    .art-process-grid2 {
+        padding-top: 2rem;
+        display: grid;
+        gap: 3rem;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+    }
+
+    .web-final {
+        padding-top: 2rem;
+        display: grid;
+        gap: 3rem;
+        grid-template-columns: 1fr 1fr;
+        width: 100%;
+    }
+
 
 }
 
